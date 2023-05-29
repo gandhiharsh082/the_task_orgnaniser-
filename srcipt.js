@@ -5,6 +5,7 @@ $(document).ready(function () {
 // add task to localStorage
 function addTask() {
     taskName = $('#taskName').val();
+    $('#taskName').val('');
     if (taskName) {
         id = localStorage.length;
         id = id + 1;
