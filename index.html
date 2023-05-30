@@ -5,35 +5,47 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Font Awesome CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  
+  <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
   <title>The Task Organiser</title>
 </head>
 <body>
-  <!-- wapper -->
+  <!-- Wrapper -->
   <div class="wrapper">
     <header>Task Organiser</header>
     <div class="inputField">
+      <!-- Input field to add new task -->
       <input class="form-control form-control-lg" id="taskName" onchange="addTask()" name="taskName" type="text" placeholder="Add new Task">
-</div>
-<div id="timer">
-
-</div>
-    <!-- data are comes from local storage -->
+    </div>
+    
+    <!-- Todo list -->
     <ul class="todoList" id="todolist">
      
     </ul>
+    
+    <!-- Footer -->
     <div class="footer">
       <span>You have <span id="pendingTasks"></span> pending tasks</span>
+      <!-- Button to clear all tasks -->
       <button onclick="cleardata()" class="btn btn-info">Clear All</button>
     </div>
   </div>
-  <!-- Optional JavaScript -->
+
+  <!-- Custom JavaScript -->
   <script src="./srcipt.js"></script>
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -46,5 +58,4 @@
     crossorigin="anonymous"></script>
 
 </body>
-
 </html>
