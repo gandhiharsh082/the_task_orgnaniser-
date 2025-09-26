@@ -11,6 +11,12 @@ you're a professional managing multiple projects, a student juggling assignments
 
 #### Frameworks :
 `Bootstrap 4`
+
+
+## 📸 Demo Screenshot
+ <img src="/screenshot.png" alt="screenshot">
+
+---
 ## Installation
 
 `Fork` the repository, this will make a copy of this project in your account.
